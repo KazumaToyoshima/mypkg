@@ -1,10 +1,9 @@
-PDX-License-Identifier:BSD-2.0
+#PDX-License-Identifier:BSD-2.0
 
 #*Copyright(c)2021 Ryuich Ueda. All rights reserved.
 
 import rospy
 from std_msgs.msg import Int32
-
 
 rospy.init_node('count')
 pub = rospy.Publisher('count_up', Int32, queue_size=1)
