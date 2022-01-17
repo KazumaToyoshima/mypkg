@@ -26,6 +26,7 @@ source ~/.bashrc
 ```
 
 ## 1. count.py 実行
+2つ目のタブを立ち上げます。
 
  ```
 rosrun mypkg count.py
@@ -33,7 +34,7 @@ rosrun mypkg count.py
  
 ## 2. twice.py 実行
 
-2つ目のタブを立ち上げます。
+3つ目のタブを立ち上げます。
 
   ```
 rosrun mypkg twice.py
@@ -41,7 +42,7 @@ rosrun mypkg twice.py
 
 ## 出力を行う
 
-3つ目のタブを立ち上げます。
+4つ目のタブを立ち上げます。
 
 数を1ずつ増やす
  ```
